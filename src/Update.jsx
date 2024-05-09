@@ -31,7 +31,7 @@ function Update() {
         e.preventDefault();
         axios.put('http://localhost:4000/User/'+id, values)
         .then (res => {
-           navigate('/')
+           navigate('/user')
         })
         .catch(err =>console.log(err))
     }

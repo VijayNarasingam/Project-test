@@ -22,7 +22,7 @@ function Create() {
         axios.post('http://localhost:4000/User/',{image, name, email, mobile, designation, gender, course})
         .then(result => {
             console.log(result)
-            navigate('/')
+            navigate('/user')
         })
         .catch(err => console.log(err))
 

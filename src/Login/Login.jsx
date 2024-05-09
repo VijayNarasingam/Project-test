@@ -27,7 +27,7 @@ const Login = () => {
             if (resp.password===password) {
               toast.success('Success');
               sessionStorage.setItem('username',username);
-              usenavigate('/')
+              usenavigate('/user')
             }else{
             toast.error('Please Enter Valid Password');
 
