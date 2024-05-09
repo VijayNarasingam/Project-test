@@ -1,0 +1,30 @@
+{
+  "Login": [
+    {
+      "id": "vijay",
+      "password": "12345678"
+    }
+  ],
+  "User": [
+    {
+      "id": "ad88",
+      "image": "C:\\fakepath\\peakpx (1).jpg",
+      "name": "vijay",
+      "email": "vijasy",
+      "mobile": "152316546545",
+      "designation": "HR",
+      "gender": "male",
+      "course": "MCA"
+    },
+    {
+      "id": "f5c7",
+      "image": "C:\\fakepath\\pngwing.com (2).png",
+      "name": "ajith",
+      "email": "dbjfsdf",
+      "mobile": "dfsdfs",
+      "designation": "Manager",
+      "gender": "male",
+      "course": "BCA"
+    }
+  ]
+}
