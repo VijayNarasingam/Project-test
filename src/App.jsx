@@ -14,10 +14,11 @@ function App() {
    <div>
       <BrowserRouter>
       <Routes>
+        <Route path='/login' element={<Login/>}></Route>
         <Route path='/' element={<User/>}></Route>
         <Route path='/Create' element={<Create/>}></Route>
         <Route path='/Update/:id' element={<Update/>}></Route>
-        <Route path='/login' element={<Login/>}></Route>
+        
       </Routes>
       </BrowserRouter>
    </div>
